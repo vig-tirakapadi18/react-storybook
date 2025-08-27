@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/react-vite'
+import type { Preview } from '@storybook/react-vite';
 import "../src/index.css";
 
 const preview: Preview = {
@@ -17,6 +17,10 @@ const preview: Preview = {
       test: 'todo'
     }
   },
+
+  // decorators: [withPaddingAndBgLightBlue],
 };
+
+// export const decorators: Decorator[] = [withPaddingAndBgLightBlue];
 
 export default preview;

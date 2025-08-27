@@ -18,6 +18,13 @@ export default {
       options: ["left", "right"],
     },
   },
+  // decorators: [
+  //   (Story: any) => (
+  //     <div className="p-8 bg-blue-200 rounded-lg">
+  //       <Story />
+  //     </div>
+  //   ),
+  // ],
 };
 
 export const Primary = {
@@ -64,6 +71,13 @@ export const Primary = {
       ],
     },
   },
+  // decorators: [
+  //   (Story: any) => (
+  //     <div className="p-8 rounded-lg bg-violet-300">
+  //       <Story />
+  //     </div>
+  //   ),
+  // ],
 };
 
 // export const Secondary = () => <Button variant="secondary">Secondary</Button>;
